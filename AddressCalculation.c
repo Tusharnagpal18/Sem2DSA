@@ -3,7 +3,8 @@
 void addRow(){
     int base,w,n,i,l1,j,l2,tot;
     scanf("%d%d%d",&base,&w,&n);
-        scanf("%d%d%d%d",&l1,&i,&l2,&j);
+        scanf("%d%d%d%d",&l1,&i,
+              &l2,&j);
 
     tot=base+w*(n*(i-l1)+(j-l2));
     printf("tot = %d",tot);
