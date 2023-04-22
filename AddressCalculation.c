@@ -9,7 +9,8 @@ void addRow(){
     tot=base+w*(n*(i-l1)+(j-l2));
     printf("tot = %d",tot);
 }
-        // col major
+
+       // col major
 void addCol(){
     int base,m,w,i,l1,j,l2;
     scanf("%d%d%d",&base,&m,&w);
@@ -17,7 +18,6 @@ void addCol(){
     int tot=base+m*(w*(j-l2)+(i-l1));
     printf("tot = %d",tot);
 }
-
 void add1D(){
     int base,m,k,tot;
     scanf("%d%d%d",&base,&m,&k);
