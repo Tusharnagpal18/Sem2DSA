@@ -56,8 +56,8 @@ int main(int argc, char const *argv[])
     case 4:
            printf("Exit...");
             exit(0);               
-    // default:
-    //     break;
+    default:
+              break;
       }
     }
     return 0;
