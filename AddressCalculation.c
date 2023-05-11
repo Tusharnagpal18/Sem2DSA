@@ -1,5 +1,4 @@
-#include <stdio.h>
-           
+#include <stdio.h>      
 // Row Major
 void addRow(){
     int base,w,n,i,l1,j,l2,tot;
