@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
+
 int stack[100],i,j,choice=0,n,top=-1,n;
 void push(){
     int val;
