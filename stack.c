@@ -35,8 +35,7 @@ int main(int argc, char const *argv[])
     
     int choice;
     while (1)
-    {
-
+        {
     printf("Chose one from the below options...\n");  
     printf("\n1.Push\n2.Pop\n3.Show\n4.Exit\n");  
     // printf("\n Enter your choice \n");        
