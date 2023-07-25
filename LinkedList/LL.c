@@ -60,6 +60,7 @@
         p->next=temp;
         return (q);
     }
+    // counting the no of nodes
     int count(node *p){
         int i=0;
         while(p!=NULL){
