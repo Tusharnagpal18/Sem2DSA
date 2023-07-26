@@ -12,7 +12,6 @@ if(n>30){
 printf("enter size <= 30");
 }
 else{
-
 for(i=0;i<n;i++){
 scanf("%d",&a[i]);
 }
