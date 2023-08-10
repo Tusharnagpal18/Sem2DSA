@@ -12,13 +12,19 @@ for(i=0;i<n;i++){
     }
  }
  for(i=0;i<n;i++){
- for(j=0;j<n;j++){
+   for(j=0;j<n;j++){
       scanf("%d",&b[i][j]);
     }
  }
+ // adding two matrix a and b and storing into c
  for(i=0;i<n;i++){
- for(j=0;j<n;j++){
+   for(j=0;j<n;j++){
       c[i][j]=a[i][j]+b[i][j];
     }
  }
+ for(i=0;i<n;i++){
+   for(j=0;j<n;j++){
+      printf("%d %d",c[i][j]);
+    }
+ } 
 }
