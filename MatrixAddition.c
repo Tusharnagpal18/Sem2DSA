@@ -16,4 +16,9 @@ for(i=0;i<n;i++){
       scanf("%d",&b[i][j]);
     }
  }
+ for(i=0;i<n;i++){
+ for(j=0;j<n;j++){
+      c[i][j]=a[i][j]+b[i][j];
+    }
+ }
 }
