@@ -1,5 +1,4 @@
 #include <stdio.h>      
-
 // Row Major
 void addRow(){
     int base,w,n,i,l1,j,l2,tot;
@@ -25,6 +24,7 @@ void add1D(){
     tot=base+(m*k);
     printf("Address = %d",tot);
 }
+
 int main() {
     // Write C code here
     int ch;
