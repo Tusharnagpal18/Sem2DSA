@@ -5,16 +5,17 @@ void addRow(){
     int base,w,n,i,l1,j,l2,tot;
     scanf("%d%d%d",&base,&w,&n);
         scanf("%d%d%d%d",&l1,&i,&l2,&j);
-
+  // formula for row major
     tot=base+w*(n*(i-l1)+(j-l2));
     printf("tot = %d",tot);
 }
 
-       // col major
+     // col major
 void addCol(){
     int base,m,w,i,l1,j,l2;
     scanf("%d%d%d",&base,&m,&w);
         scanf("%d%d%d%d",&i,&l1,&j,&l2);
+    // formula
     int tot=base+m*(w*(j-l2)+(i-l1));
     printf("tot = %d",tot);
 }
