@@ -5,6 +5,7 @@
 void main(){
 clrscr();
 int a[30];
+ // flag to check the condition
 int n,i,m,flag=1;
 printf("enter the size of array\n");
 scanf("%d",&n);
