@@ -16,7 +16,7 @@ void push(){
       stack[top]=val;
       }
 }
-
+// used to pop the value
 void pop(){
     if(top==-1)
       printf("UNDERFLOW");
