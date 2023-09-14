@@ -4,6 +4,7 @@
         int data;
         struct slink *next;
     }node;
+
    // creating a node
     node *create(node *p){
         p=(node*)malloc(sizeof(node));
