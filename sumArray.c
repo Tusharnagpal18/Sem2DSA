@@ -1,7 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
-
 void main(){
   int a[20],n,i,sum=0;
   printf("Enter size of array\n");
