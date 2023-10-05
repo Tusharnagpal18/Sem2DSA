@@ -2,7 +2,6 @@
 #include<conio.h>
 #include<stdlib.h>
 
-
 // global variables
 int stack[100],i,j,choice=0,n,top=-1,n;
 // used to insert the value
