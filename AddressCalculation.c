@@ -1,4 +1,3 @@
-
 #include <stdio.h>      
 // Row Major
 void addRow(){
