@@ -1,5 +1,4 @@
 //searching
-
 #include<stdio.h>
 #include<conio.h>
 // basic linear search
