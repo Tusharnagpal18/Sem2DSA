@@ -8,7 +8,6 @@ void addRow(){
     tot=base+w*(n*(i-l1)+(j-l2));
     printf("tot = %d",tot);
 }
-
      // col major
 void addCol(){
     int base,m,w,i,l1,j,l2;
