@@ -11,7 +11,6 @@ for(i=0;i<n;i++){
       scanf("%d",&a[i][j]);
     }
  }
-
  for(i=0;i<n;i++){
    for(j=0;j<n;j++){
       scanf("%d",&b[i][j]);
