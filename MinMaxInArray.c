@@ -1,7 +1,6 @@
 // to find the min and max from an array
 
 #include <stdio.h>
-
 int main() {
    int a[20],min,max;
    int n;
