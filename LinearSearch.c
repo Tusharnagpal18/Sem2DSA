@@ -2,7 +2,6 @@
 #include<stdio.h>
 #include<conio.h>
 
-
 // basic linear search
 void main(){
 clrscr();
