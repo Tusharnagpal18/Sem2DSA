@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 int main() {
+   
    int a[20],min,max;
    int n;
    printf("enter the size of array\n");
